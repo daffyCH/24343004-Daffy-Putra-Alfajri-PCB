@@ -13,8 +13,8 @@ print("=== PRAKTIKUM DIGITALISASI CITRA (RGB) ===\n")
 # 1. AKUISISI DAN PEMBACAAN
 # =============================
 
-image_path = "C:/Users/manta/Downloads/" \
-"image_2026-02-14_102608780_waifu2x_art_noise3_scale.png"
+image_path = "C:/Users/manta/Pictures/" \
+"Gambar WhatsApp 2024-10-04 pukul 10.13.06_f98fb544.jpg"
 
 img = cv2.imread(image_path)
 
@@ -112,3 +112,4 @@ plt.tight_layout()
 plt.show()
 
 print("\n=== PRAKTIKUM SELESAI ===")
+
